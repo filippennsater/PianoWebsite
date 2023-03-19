@@ -26,8 +26,7 @@ h2 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     font-weight: 600;
-    text-shadow: -3px 0 rgb(0, 0, 0), 0 3px rgb(0, 0, 0), 3px 0 rgb(0, 0, 0), 0 -3px rgb(rgb(0, 0, 0)
-
+    text-shadow: -3px 0 rgb(0, 0, 0), 0 3px rgb(0, 0, 0), 3px 0 rgb(0, 0, 0), 0 -3px rgb(rgb(0, 0, 0));
 }
 
 
@@ -39,55 +38,74 @@ h2 {
     align-self: center;
     left: 15%;
     width: 70%;
-    top: 0;
+    top: 40%;
     bottom: 0;
     text-align: center;
 
 }
 
-.resultDiv{
-
-    /*background-color: #E0E0E0;*/
-    position: relative;
-    align-self: center;
-    left: 15%;
-    width: 70%;
-    top: 0;
-    bottom: 0;
-    text-align: center;
-
-}
-
-.button {
+.buttonWhite {
     border-style: groove;
-    border-color: #380025;
+    border-color: #000000;
     border-width: 5px;
 
     /*makes the button rounded*/
-    border-radius: 15px;
+    border-radius: 3px;
 
     color: white;
-    padding: 15px 32px;
+    padding: 200px 40px;
     text-align: center;
     text-decoration-color: black;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
     cursor: pointer;
     -webkit-text-fill-color: black;
-    box-shadow: 0 10px #380025;
+    box-shadow: 0 10px #616161;
 }
 
-.button:hover {
+.buttonWhite:hover {
     background-color: #bdbdbd;
-    
+
 }
 
-.button:active {
+.buttonWhite:active {
     background-color: #bdbdbd;
-    box-shadow: 0 5px #16000f;
+    box-shadow: 0 5px #202020;
 
     /*makes button drop down towards shadow*/
     transform: translateY(5px);
 }
 
+.buttonBlack {
+    border-style: groove;
+    background-color: #000000;
+    border-color: #000000;
+    border-width: 5px;
+    position: top;
+
+    /*makes the button rounded*/
+    border-radius: 3px;
+
+    color: rgb(0, 0, 0);
+    padding: 125px 30px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: black;
+    box-shadow: 0 10px #616161;
+}
+
+.buttonBlack:hover {
+    background-color: #000000;
+
+}
+
+.buttonBlack:active {
+    background-color: #000000;
+    box-shadow: 0 5px #202020;
+
+    /*makes button drop down towards shadow*/
+    transform: translateY(5px);
+}
