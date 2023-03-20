@@ -32,7 +32,7 @@ h2 {
 
 .wholePiano {
 
-    /*background-color: #E0E0E0;*/
+    background-color: #E0E0E0;
 
     position: absolute;
     align-self: center;
@@ -48,6 +48,7 @@ h2 {
     border-style: groove;
     border-color: #000000;
     border-width: 5px;
+    vertical-align: top;
 
     /*makes the button rounded*/
     border-radius: 3px;
@@ -81,7 +82,9 @@ h2 {
     background-color: #000000;
     border-color: #000000;
     border-width: 5px;
-    position: top;
+    vertical-align: top;
+
+    z-index: 9;
 
     /*makes the button rounded*/
     border-radius: 3px;
@@ -98,7 +101,7 @@ h2 {
 }
 
 .buttonBlack:hover {
-    background-color: #000000;
+    background-color: #222222;
 
 }
 
