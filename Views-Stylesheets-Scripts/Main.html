@@ -12,9 +12,39 @@
 
 <body>
 
-    <button class="buttonDarkMode" onpointerdown=darkMode()><h3>Darkmode</h3></button>
+    <div class="headingDiv">
+        <h2>Filips Piano</h2>
+    </div>
 
     <div class="whiteKeys">
+
+        <button class="buttonWhite" onpointerdown=playSound(-1)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-3)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-5)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-6)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-8)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-10)></button>
+        <button class="buttonWhite" onpointerdown=playSound(-12)></button>
+
+        <div class="blackKeysM1">
+            <button class="buttonBlack" onpointerdown=playSound(-2)></button>
+        </div>
+
+        <div class="blackKeysM2">
+            <button class="buttonBlack" onpointerdown=playSound(-4)></button>
+        </div>
+
+        <div class="blackKeysM3">
+            <button class="buttonBlack" onpointerdown=playSound(-7)></button>
+        </div>
+
+        <div class="blackKeysM4">
+            <button class="buttonBlack" onpointerdown=playSound(-9)></button>
+        </div>
+
+        <div class="blackKeysM5">
+            <button class="buttonBlack" onpointerdown=playSound(-11)></button>
+        </div>
 
         <button class="buttonWhite" onpointerdown=playSound(1)></button>
         <button class="buttonWhite" onpointerdown=playSound(3)></button>
@@ -27,26 +57,62 @@
         <div class="blackKeys1">
             <button class="buttonBlack" onpointerdown=playSound(2)></button>
         </div>
-    
+
         <div class="blackKeys2">
             <button class="buttonBlack" onpointerdown=playSound(4)></button>
         </div>
-    
+
         <div class="blackKeys3">
             <button class="buttonBlack" onpointerdown=playSound(7)></button>
         </div>
-    
+
         <div class="blackKeys4">
             <button class="buttonBlack" onpointerdown=playSound(9)></button>
         </div>
-    
+
         <div class="blackKeys5">
             <button class="buttonBlack" onpointerdown=playSound(11)></button>
         </div>
 
+        <button class="buttonWhite" onpointerdown=playSound(100)></button>
+        <button class="buttonWhite" onpointerdown=playSound(300)></button>
+        <button class="buttonWhite" onpointerdown=playSound(500)></button>
+        <button class="buttonWhite" onpointerdown=playSound(600)></button>
+        <button class="buttonWhite" onpointerdown=playSound(800)></button>
+        <button class="buttonWhite" onpointerdown=playSound(1000)></button>
+        <button class="buttonWhite" onpointerdown=playSound(1200)></button>
+
+        <div class="blackKeysP1">
+            <button class="buttonBlack" onpointerdown=playSound(2)></button>
+        </div>
+
+        <div class="blackKeysP2">
+            <button class="buttonBlack" onpointerdown=playSound(4)></button>
+        </div>
+
+        <div class="blackKeysP3">
+            <button class="buttonBlack" onpointerdown=playSound(7)></button>
+        </div>
+
+        <div class="blackKeysP4">
+            <button class="buttonBlack" onpointerdown=playSound(9)></button>
+        </div>
+
+        <div class="blackKeysP5">
+            <button class="buttonBlack" onpointerdown=playSound(11)></button>
+        </div>
+
+
     </div>
 
     
+
+    <div class="darkModeDiv">
+        <button class="buttonDarkMode" onpointerdown=darkMode()>
+            <h3>Darkmode</h3>
+        </button>
+    </div>
+
 
 </body>
 
