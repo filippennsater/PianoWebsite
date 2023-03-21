@@ -27,15 +27,11 @@ p {
 
 h2 {
     color: #ffffff;
-    font-family:cursive;
+    font-family:Apple Chancery, cursive;
     font-size: 100px;
     font-weight: 600;
 }
 
-.h2-dark-mode {
-    color: #E0E0E0;
-    text-shadow: #E0E0E0;
-}
 
 h3 {
     color: #000000;
