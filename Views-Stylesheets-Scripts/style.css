@@ -5,6 +5,11 @@ body {
     background-size: 100%;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
 h1 {
     color: #000000;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
@@ -27,6 +32,13 @@ h2 {
     font-size: 100px;
     font-weight: 600;
     text-shadow: -3px 0 rgb(0, 0, 0), 0 3px rgb(0, 0, 0), 3px 0 rgb(0, 0, 0), 0 -3px rgb(rgb(0, 0, 0));
+}
+
+h3 {
+    color: #004f99;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 
@@ -169,6 +181,44 @@ h2 {
 
 .buttonBlack:active {
     background-color: #000000;
+    box-shadow: 0 5px #202020;
+
+    /*makes button drop down towards shadow*/
+    transform: translateY(5px);
+}
+
+
+
+
+/*darkMode Button*/
+
+.buttonDarkMode {
+    border-style: groove;
+    border-color: #000000;
+    border-width: 5px;
+    vertical-align: top;
+
+    /*makes the button rounded*/
+    border-radius: 100%;
+
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: black;
+    box-shadow: 0 10px #616161;
+}
+
+.buttonDarkMode:hover {
+    background-color: #bdbdbd;
+
+}
+
+.buttonDarkMode:active {
+    background-color: #bdbdbd;
     box-shadow: 0 5px #202020;
 
     /*makes button drop down towards shadow*/
